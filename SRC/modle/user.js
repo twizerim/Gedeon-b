@@ -12,15 +12,15 @@ const userschemas=new mongoose.Schema({
     },
     identification:{
         type:Number,
-        required
+        required:true
     },
     password:{
         type:Number,
-        required
+        required:true
     },
     confrimpassword:{
         type:Number,
-        required
+        required:true
     },
     role:{
         type:String,
