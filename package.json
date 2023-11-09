@@ -4,6 +4,7 @@
   "description": "Gedeon-b is my online website that help me and my friend to share information, on this web iam able to post,delete,update and store news or other infromation",
   "main": "Server.js",
   "scripts": {
+    "start":"babel-node ./SRC/Server.js",
     "dev":"nodemon --exec babel-node ./SRC/Server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

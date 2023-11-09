@@ -4,11 +4,13 @@ import express from "express"
 import mongoose from "mongoose"
 import bodyParser from "body-parser"
 import dotenv from "dotenv"
+import router from "./Routes"
 
 
 dotenv.config()
 const image=express()
 image.use(bodyParser.json())
+image.use("/pi/v1",router)
 
 const port=process.env.PORT
 const db=process.env.DATABASE
