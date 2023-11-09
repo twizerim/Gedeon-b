@@ -4,8 +4,8 @@
   "description": "Gedeon-b is my online website that help me and my friend to share information, on this web iam able to post,delete,update and store news or other infromation",
   "main": "Server.js",
   "scripts": {
-    "start":"babel-node ./SRC/Server.js",
-    "dev":"nodemon --exec babel-node ./SRC/Server.js",
+    "start": "babel-node ./SRC/Server.js",
+    "dev": "nodemon --exec babel-node ./SRC/Server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -34,5 +34,8 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^7.5.1",
     "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6"
   }
 }
